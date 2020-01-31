@@ -1,4 +1,4 @@
-# h via Hue emulation
+# SleepCycle webhooks via Hue emulation
 
 A small application that emulates a Hue bridge for SleepCycle to communicate with.
 Incoming requests from SleepCycles are sent out to user-specified webhooks.
