@@ -2,6 +2,7 @@
 
 A small application that emulates a Hue bridge for SleepCycle to communicate with.
 Incoming requests from SleepCycles are sent out to user-specified webhooks.
+Read about what I am using this for [below](#use-case).
 
 The code is written to work with SleepCycle, however, it is likely that it will also work with other software or devices that connect with Hue bridges.
 
