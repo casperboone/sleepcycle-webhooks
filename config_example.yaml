@@ -1,0 +1,14 @@
+network:
+  listen_ip: 192.168.1.2 # IP of the local machine
+  http_port: 80 # Note: SleepCycle requires the http server to run on port 80
+webhooks:
+  turn_on:
+    url: https://my-webhook.com/sleep-cycle-on
+    method: GET
+  turn_off:
+    url: https://my-webhook.com/sleep-cycle-off
+    method: GET
+  set_brightness:
+    url: https:/my-webhook.com/sleep-cycle-brightness
+    method: GET
+    brightness_parameter_name: bri
